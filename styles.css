@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: skyblue;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+#title, #description{
+    font-family: 'Poppins';
+    font-weight: normal;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    margin-top: 0px;
+}
+
+form{
+    background-color: #292948;
+    display: flex;
+    justify-content: center;
+    margin: auto 400px;
+    color: white;
+    font-family: 'Poppins'
+}
+
+#name-label, #email-label, #number-label, #description-label, #checkout, #improve, #suggestions{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#name, #email, #number, #dropdown, #comment{
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#comment{
+    height: 50px;
+    text-align: start;
+}
+
+input[type='radio']{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+input[type='checkbox']{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+#submit{
+    color: white;
+    font-family: 'Poppins';
+    background-color: #37AF65;
+    width: 510px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#submit:hover{
+    opacity: 0.8;
+}
+
+#submit:active{
+    opacity: 0.6;
+}
